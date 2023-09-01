@@ -67,11 +67,9 @@ def rotaObjeto():
             print("Pare de digitar rotas que nao existem")
 # continuee digitar valores nao numericos. Tente novamente')
             continue
-print('Bem vindo a Logistica Ralfe Antunes S.A.')
+print('Bem vindo a Logistica RA S.A.')
 volumeObjeto = dimensaoObjeto()
 pesoKg = pesoObjeto()
 rota = rotaObjeto()
 total = volumeObjeto * pesoKg * rota
-print(
-"O valor total a pagar (R$) {:.2f} (dimensões: {} * peso: {} * rota: {})".format(total,
-volumeObjeto, pesoKg, rota))
+print("O valor total a pagar (R$) {:.2f} (dimensões: {} * peso: {} * rota: {})".format(total,volumeObjeto, pesoKg, rota))
